@@ -17,14 +17,12 @@ h3 {
     text-align:center;
 }
 p {
+    background-color: bisque;
     text-indent: 15px;
-max-width: 90%;
+max-width: 70%;
 color: black;
 font-size: 15px;
 font-family: Verdana, Tahoma, sans-serif;
 text-align: justify
 }
-.resumen {
-    background-color: bisque;
-    max-width: 90%;
-}
+
