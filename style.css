@@ -29,15 +29,6 @@ text-align: center, justify
     max-width: 70%;
 }
 
-.linkin {
-    max-width: 60%;
-    background-color: brown;
-    text-align: right
-}
-.linkinhome {
-    max-width: 25%;
-    text-align: right;
-}
-.linkforward {
-
+.links {
+    align-items: center;
 }
