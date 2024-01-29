@@ -17,12 +17,27 @@ h3 {
     text-align:center;
 }
 p {
-    background-color: bisque;
     text-indent: 15px;
-max-width: 70%;
+max-width: 90%;
 color: black;
 font-size: 15px;
 font-family: Verdana, Tahoma, sans-serif;
-text-align: justify
+text-align: center, justify
+}
+.resumen {
+    background-color: rgb(248, 213, 170);
+    max-width: 70%;
 }
 
+.linkin {
+    max-width: 60%;
+    background-color: brown;
+    text-align: right
+}
+.linkinhome {
+    max-width: 25%;
+    text-align: right;
+}
+.linkforward {
+
+}
