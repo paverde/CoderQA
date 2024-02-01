@@ -1,0 +1,34 @@
+body {
+    background:tan;
+    color: black
+}
+header {
+    text-align: center;
+    font-size: 32px;
+    font-style: italic, bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    color:black;
+    text-align: center;
+     }
+h3 {
+    color: darkred;
+    text-align:center;
+}
+p {
+    text-indent: 15px;
+max-width: 90%;
+color: black;
+font-size: 15px;
+font-family: Verdana, Tahoma, sans-serif;
+text-align: center, justify
+}
+.resumen {
+    background-color: rgb(248, 213, 170);
+    max-width: 90%;
+}
+
+.links {
+    align-items: center;
+}
