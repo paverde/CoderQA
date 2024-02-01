@@ -1,0 +1,24 @@
+Niveles de prueba/testing: Cada nivel de prueba es una instancia del proceso de pruebas realizadas en relación con el software en un nivel de desarrollo determinado, desde componentes individuales hasta sistemas completos.
+
+Prueba de componente/unitaria/modulo: La prueba de componente se centra en los componentes (código) que se pueden probar por separado. En general, el desarrollador hace las pruebas de componentes utilizando directamente su código base. 
+
+Prueba de integración: La prueba de integración se centra en las interacciones entre componentes y/o sistemas.
+Cuando se integran las partes que se probaron aisladamente, se prueba todo en conjunto validando su funcionamiento como un todo. Los objetos de prueba suelen ser subsistemas, bases de datos, infraestructura, interfaces, microservicios, etc. La prueba debe centrarse en la comunicación entre los módulos.
+
+Prueba de sistema: Se suele aplicar como base de pruebas para componentes como informes de análisis de riesgo, casos de uso, épicas e historias de usuario o diagramas de estado, entre otras.
+Por esto mismo, los objetos de prueba suelen ser aplicaciones, sistemas operativos, sistemas hardware/software, sistema sujeto a prueba o configuraciones del sistema. La prueba de sistema debe centrarse en el comportamiento global y extremo a extremo del sistema en su conjunto, tanto funcional como no funcional. 
+
+Prueba de aceptación: Se prueba el comportamiento y las capacidades de todo un sistema o producto pero se evaluará el grado de satisfacción general para su despliegue y uso por parte de los usuarios. A menudo es el último nivel de prueba en un ciclo de vida de desarrollo secuencial.
+
+Prueba de aceptación de usuario/UAT:El objetivo principal es crear confianza en que los usuarios pueden utilizar el sistema para satisfacer sus necesidades, cumplir con los requisitos y realizar los procesos de negocio con la mínima dificultad, coste y riesgo.
+
+Prueba de aceptación operativa.generar confianza en que los operadores o administradores del sistema pueden mantener el sistema funcionando correctamente para los usuarios en el entorno operativo, incluso en condiciones excepcionales o difíciles.
+
+Prueba de aceptación contractual y de regulación.Se realiza en función de los criterios de aceptación del contrato para el desarrollo de software a medida. Los criterios de aceptación deben definirse cuando las partes acuerdan el contrato.
+
+Prueba alfa y beta. Son pruebas utilizadas por los desarrolladores de software comercial de distribución masiva que desean obtener retroalimentación de los usuarios, clientes y/u operadores potenciales o existentes antes de que el producto de software sea puesto en el mercado.
+
+Prueba de mantenimiento:  Buscan saber que el software mantiene su calidad en tiempo de vida activo. También es necesario para preservar o mejorar las características de calidad no funcionales del sistema a lo largo de su vida útil.
+
+
+
