@@ -1,34 +1,41 @@
 body {
-    background:tan;
-    color: black
+	background: tan;
+	color: black;
 }
 header {
-    text-align: center;
-    font-size: 32px;
-    font-style: italic, bold;
-    font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	font-size: 32px;
+	font-style: italic, bold;
+	font-family: 'Courier New', Courier, monospace;
 }
 h1 {
-    color:black;
-    text-align: center;
-     }
+	color: black;
+	text-align: center;
+}
 h3 {
-    color: darkred;
-    text-align:center;
+	color: darkred;
+	text-align: center;
+}
+h4 {
+	color: darkred;
+	font-weight: 300;
+	text-align: center;
 }
 p {
-    text-indent: 15px;
-max-width: 90%;
-color: black;
-font-size: 15px;
-font-family: Verdana, Tahoma, sans-serif;
-text-align: center, justify
+	max-width: 90%;
+	color: black;
+	font-size: 15px;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin-inline-start: 2rem;
 }
 .resumen {
-    background-color: rgb(248, 213, 170);
-    max-width: 90%;
+	background-color: rgb(248, 213, 170);
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
 }
 
 .links {
-    align-items: center;
+	align-items: center;
 }
