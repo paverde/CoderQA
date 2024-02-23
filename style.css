@@ -1,6 +1,7 @@
 body {
 	background: tan;
 	color: black;
+	margin-left: 20px;
 }
 header {
 	text-align: center;
@@ -16,6 +17,10 @@ h3 {
 	color: darkred;
 	text-align: center;
 }
+h2 {
+	color: darkred;
+	text-align: center;
+}
 h4 {
 	color: darkred;
 	font-weight: 300;
@@ -26,7 +31,6 @@ p {
 	color: black;
 	font-size: 15px;
 	font-family: Verdana, Tahoma, sans-serif;
-	margin-inline-start: 2rem;
 }
 .resumen {
 	background-color: rgb(248, 213, 170);
@@ -38,4 +42,19 @@ p {
 
 .links {
 	align-items: center;
+}
+
+ol,
+ul {
+	margin-left: 20px;
+}
+li {
+	margin: 15px 20px;
+}
+
+.img {
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
 }
