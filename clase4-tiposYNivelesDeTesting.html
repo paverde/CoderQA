@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=description content="Resumenes del curso de CODERHOUSE">
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Resumen de CODER</title>
+    <a href="clase3-bugsEnElTesting.html">
+        <p aling="center"><b>Clase 3</b> Defectos en el Testing
+    </a>
+</head>
+</p>
+<a href="index.html">
+    <p aling="center"><b>PRINCIPAL</b>
+</a></p>
+<a href="clase5-planYCasosDeTesting.html">
+    <p aling="center"><b>Clase 5</b> Plan y casos de prueba
+</a></p>
+</head>
+<header>Curso de Q&A - Clase 04 - CODERHOUSE</header>
+
+<body class="contenedor">
+    <hr />
+    <br>
+    <br>
+    <h1>Tipos de bug</h1>
+    <p>Cada nivel de prueba es una instancia del proceso de pruebas realizadas en relación con el software en un nivel
+        de desarrollo determinado, desde componentes individuales hasta sistemas completos.</p>
+    <br>
+    <hr>
+    <h3>Prueba Funcional</h3>
+    <p>Incluye pruebas que evalúan las funciones que el sistema debe realizar. Los requisitos funcionales pueden estar
+        descritos en productos de trabajo tales como especificaciones de requisitos de negocio, épicas, historias de
+        usuario, casos de uso, o especificaciones funcionales. Las funciones describen "qué" debe hacer el sistema.
+
+        Se deben realizar pruebas funcionales en todos los niveles de prueba, aunque el enfoque es diferente en cada
+        nivel.
+
+        Se puede medir la intensidad de la prueba funcional a través de la cobertura funcional. La cobertura funcional
+        es la medida en que algún tipo de elemento funcional ha sido practicado por pruebas, y se expresa como un
+        porcentaje del tipo o tipos de elementos cubiertos.
+
+        El diseño y la ejecución de pruebas funcionales pueden implicar competencias o conocimientos especiales, como el
+        conocimiento del problema de negocio específico que resuelve el software o el papel particular que desempeña el
+        software
+        <hr>
+    </p>
+    <h3>Prueba no funcional</h3>
+    <p>Evalúan otras características de sistemas, como por ejemplo: accesibilidad, conectividad o seguridad. Prueba que
+        tan bien se comporta un sistema básicamente. Hacen foco en los Requerimientos No Funcionales.
+
+        Tal como en las pruebas funcionales, acá también se puede medir la intensidad de una prueba no funcional a
+        través de la cobertura no funcional. También se mide de acuerdo a la medida de cómo algún objeto no funcional ha
+        sido probado.
+
+        Para este tipo de pruebas, se debe contar con ciertos conocimientos o competencias especiales al momento de
+        hacer el diseño y la ejecución de las mismas.
+        <hr>
+    </p>
+    <h3>Prueba de estructura</h3>
+    <p>Se obtienen pruebas leyendo la infraestructura del sistema, el código del mismo, en su implementación o
+        arquitectura. También incluye flujos de datos, bases de datos o flujos de trabajo. Esta es la razón por la que
+        es un tipo de prueba que necesita un seniority más avanzado.
+
+        Este tipo de pruebas también lleva una medición de intensidad a través de la cobertura estructural. En esta, la
+        medida se toma a partir de los objetos estructurales que se hayan realizado contra lo que resta probar.
+        Dependiendo qué objeto sea el que se esté probando es el tipo de porcentaje que se aplicará.
+
+        El tipo de caja blanca necesitan de un tipo de conocimiento relacionado a otras áreas que van por fuera del
+        tester QA. Su diseño y ejecución va a estar basado de las competencias que se tenga sobre el tema.
+        <hr>
+    </p>
+    <h3>Prueba asociada al cambio</h3>
+    <p>Aquí es donde entra en juego el papel del QA de Automatización.
+
+        Son pruebas que se utilizan para comprobar corrección de bugs o mejoras en un sistema o nuevas funcionalidades,
+        para poder asegurar que el sistema funciona como corresponde.
+
+        Estas dos pruebas se realizan en todos los niveles de prueba, especialmente en metodologías del tipo Agile,
+        Pruebas de confirmación. Cuando nos entregan el sistema corregido de algún defecto, se llevan adelante estas
+        pruebas para asegurar que el error ya no se encuentra. Esto implica realizar los pasos que llevaron adelante ese
+        error, y continuar con los próximos pasos, si es que este error bloqueo alguno o probar si otras áreas del
+        sistema, relacionadas con el bug, siguen funcionando de forma correcta.
+        <hr>
+    </p>
+    <h3>Prueba de regresión</h3>
+    <p>Esta prueba se utiliza para corroborar que ninguna otra área del sistema haya sido afectada por el cambio
+        realizado en él. Esto es para ver que no haya ningún defecto como daño secundario a causa de estos cambios.
+        <hr>
+    </p>
+    <Section class="resumen">
+        <h1>Niveles de Testing</h1>
+        <p>Cada nivel de prueba es una instancia del proceso de pruebas realizadas en relación con el software en un
+            nivel de desarrollo determinado, desde componentes individuales hasta sistemas completos.</p>
+        <hr>
+
+        <h3>Prueba de componente/unitaria/modulo</h3>
+        <p>La prueba de componente se centra en los componentes (código) que se pueden probar por separado. En general,
+            el desarrollador hace las pruebas de componentes utilizando directamente su código base.</p>
+        <hr>
+        <h3>Prueba de integración</h3>
+        <p>La prueba de integración se centra en las interacciones entre componentes y/o sistemas. Cuándo se integran
+            las partes que se probaron aisladamente, se prueba todo en conjunto validando su funcionamiento como un
+            todo. Los objetos de prueba suelen ser subsistemas, bases de datos, infraestructura, interfaces,
+            microservicios, etc. La prueba debe centrarse en la comunicación entre los módulos.</p>
+        <br>
+        <hr>
+        <h3>Prueba de sistema</h3>
+        <p>Se suele aplicar como base de pruebas para componentes como informes de análisis de riesgo, casos de uso,
+            épicas e historias de usuario o diagramas de estado, entre otras. Por esto mismo, los objetos de prueba
+            suelen ser aplicaciones, sistemas operativos, sistemas hardware/software, sistema sujeto a prueba o
+            configuraciones del sistema. La prueba de sistema debe centrarse en el comportamiento global y extremo a
+            extremo del sistema en su conjunto, tanto funcional como no funcional.</p>
+        <br>
+        <hr>
+        <h3>Prueba de aceptación</h3>
+        <p>Se prueba el comportamiento y las capacidades de todo un sistema o producto pero se evaluará el grado de
+            satisfacción general para su despliegue y uso por parte de los usuarios. A menudo es el último nivel de
+            prueba en un ciclo de vida de desarrollo secuencial.</p>
+        <br>
+        <hr>
+        <h3>Prueba de aceptación de usuario/UAT</h3>
+        <p>El objetivo principal es crear confianza en que los usuarios pueden utilizar el sistema para satisfacer sus
+            necesidades, cumplir con los requisitos y realizar los procesos de negocio con la mínima dificultad, coste y
+            riesgo.</p>
+        <br>
+        <hr>
+        <h3>Prueba de aceptación operativa</h3>
+        <p>Generar confianza en que los operadores o administradores del sistema pueden mantener el sistema funcionando
+            correctamente para los usuarios en el entorno operativo, incluso en condiciones excepcionales o difíciles.
+        </p>
+        <br>
+        <hr>
+        <h3>Prueba de aceptación contractual y de regulación</h3>
+        <p>Se realiza en función de los criterios de aceptación del contrato para el desarrollo de software a medida.
+            Los criterios de aceptación deben definirse cuando las partes acuerdan el contrato.</p>
+        <br>
+        <hr>
+        <h3>Prueba alfa y beta</h3>
+        <p>Son pruebas utilizadas por los desarrolladores de software comercial de distribución masiva que desean
+            obtener retroalimentación de los usuarios, clientes y/u operadores potenciales o existentes antes de que el
+            producto de software sea puesto en el mercado.</p>
+        <br>
+        <hr>
+        <h3>Prueba de mantenimiento</h3>
+        <p>Buscan saber que el software mantiene su calidad en tiempo de vida activo. También es necesario para
+            preservar o mejorar las características de calidad no funcionales del sistema a lo largo de su vida útil.
+        </p>
+        <br>
+        <hr>
+        <hr>
+    </Section>
+</body>
+
+</html>

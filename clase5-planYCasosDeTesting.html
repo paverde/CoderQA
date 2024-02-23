@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Documento resumen de CODER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Resumen de CODER</title>
         <a href="clase4-nivelesdet.html"><p aling="center"><b>Clase 4</b> Niveles de testing</a></head></p>
         <a href="index.html"><p aling="center"><b>PRINCIPAL</b></a></p>
-        <a href="clase5-armarunplandet.html"><p aling="center"><b>Clase 5</b> Plan y casos de prueba</a></p>
+        <a href="clase6-ElCicloDeDesarrollo.html"><p aling="center"><b>Clase 06</b> Ciclo de desarollo </a></p>
 </head>
 <header>Curso de Q&A - Clase 05 - CODERHOUSE</header>
-<body>
+<body class="contenedor">
     <hr/>
     <br>
     <br>
@@ -18,7 +20,6 @@
     <p>Existen muchos tipos de documentación para trabajar. Algunos son nuestra responsabilidad y otros nos son entregados por otras areas.</p>
     <br>
     <Section class="resumen">
-    <hr>
     <h3>Plan de pruebas</h3>
     <p>Establece todos los puntos de control, límites, herramientas y cualqueir otro punto importante para el equipo de QA. Desarolla seguimientos del proyecto, riesgos, objetivos, y más tareas.</p>
 
@@ -45,6 +46,40 @@
     <hr>
     <h3>Otras pruebas estáticas</h3>
     <p>Existen mucho tipos de documentación que pueden surgir de acuerdo al proyeco que trabajemos. Los mismos se encuentran dentro de los "requerimientos funcionales" ya que son distintos diagramas de metodologías funcionales. Lo importante es siempre <b>solicitar la mayor cantidad de documentación posible previo a comenzar con nuestras pruebas</b></p>
-    
+    </Section>
+    <br>
+    <br>
+    <h3>Armar un plan de prueba</h3>
+    <p>Describe las actividades de prueba para proyectos de desarrollo y mantenimiento. Depende de la política y estrategia de prueba de la organización, los ciclos de vida de desarrollo y los métodos utilizados, el alcance de la prueba, los objetivos, los riesgos, las restricciones, la criticidad, la capacidad de ser probado y la disponibilidad de recursos.</p>
+    <hr>
+    <h3>Planificación y alcance</h3>
+    <p>A medida que evolucionan, se dispone de más información y se pueden incluir más detalles en el plan de prueba. La planificación se realiza de forma continua a lo largo de todo el ciclo de vida del producto. El alcance puede ser el plan maestro de prueba, o planes de prueba separados para los niveles de prueba, cómo las pruebas de sistema o las de aceptación, también tipos de prueba separados cómo la de usabilidad y rendimiento.</p>
+    <hr>
+    <h3>Actividades de planificación</h3>
+    <p>Es necesario hacer una lista de actividades que marquen los límites, tiempos y control de todo el sistema de pruebas.</p>
+    <hr>
+    <h3>Casos de prueba positivos</h3>
+    <p>La primera forma de prueba que un tester realizaría en una aplicación, es el proceso de ejecutar escenarios de prueba que un usuario final ejecutaría para su uso, implica ejecutar un escenario de pruieba solo con datos correctos y válidos.</p>
+    <hr>
+    <h3>Casos de prueba negativos</h3>
+    <p>Se utilizan para validad la aplicación utilizando datos no válidos, verifican si los errores se muestran al usuario donde se supone que deben hacerlo.</p>
+    <hr>
+    <ol>
+    <h3>PASO A PASO</h3>
+        <li>Ingresamos la información principal del caso de prueba: ID, Nombre, objetivo y tipo</li>
+        <li>Ingresamos el resultado que esperamos al ejecutar el caso, las precondiciones y datos de entrada que utilizaremos</li>
+        <li>Escribimos los pasos de ejecución y los resultados obtenidos (opcional)</li>
+        <li>Tipificamos su criticidad (alta, media o baja)</li>
+        <li>Agregamos toda la información extra de cada caso.</li>
+        <li>Probamos y ejecutamos el caso de prueba.</li>
+        <li>Definimos un estado.</li>
+    </ol>
+    <br>
+    <br>
+    <h4>EJEMPLO DE CASO DE PRUEBA:</h4>
+    <div class="img">
+        <img src="images/casoDePrueba.png" alt="Caso de prueba">
+    </div>
+    <br>
 </body>
 </html>
