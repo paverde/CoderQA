@@ -1,6 +1,5 @@
 .contenedor {
 	background: tan;
-	color: black;
 	margin-left: 20px;
 }
 header {
@@ -9,20 +8,23 @@ header {
 	font-style: italic, bold;
 	font-family: 'Courier New', Courier, monospace;
 }
+.pagination {
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+}
+
 h1 {
 	color: black;
 	text-align: center;
 }
-h3 {
-	color: darkred;
+h2 {
 	text-align: center;
 }
-h2 {
-	color: darkred;
+h3 {
 	text-align: center;
 }
 h4 {
-	color: darkred;
 	font-weight: 300;
 	text-align: center;
 }

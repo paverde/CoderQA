@@ -7,22 +7,22 @@
     <link rel="icon" href="images/favicon.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>Resumen de CODER</title>
-    <a href="clase1-testing.html"><p aling="center"><b>Clase 1 </b>Testing</a></head></p>
-    <a href="index.html"><p aling="center"><b>PRINCIPAL</b></a></p>
-        <a href="clase3-bugsEnElTesting.html"><p aling="center"><b>Clase 3</b> Tipos de testing</a></p>
-    </head>
-    <header>
-        Curso de Q&A - Clase 02 - CODERHOUSE
-    </header>
+</head>
+<div class="pagination">
+    <a href="clase1-testing.html" class="btn btn-dark"><strong><<< Clase 01</strong> - Testing</a>
+    <a href="index.html" class="btn btn-dark my-2"><strong>PRINCIPAL</strong></a>
+    <a href="clase3-bugsEnElTesting.html" class="btn btn-dark"><strong>Clase 03</strong> - Tipos de testing >>></a>
+</div>
+<header> Curso de Q&A - Clase 02 - CODERHOUSE </header>
 <body class="contenedor">
     <hr/>
     <br>
     <br>    
-    <h1>
-        Principios del Testing
-    </h1>
+    <h1>Principios del Testing</h1>
+    <br>
+    <br>
     <ol>
         <p>
             Hace muchos años se han establecido 7 verdades absolutas, que siempre se regirán, sin importar el proyecto en el que estés.
@@ -37,15 +37,13 @@
     </ol>
     <br>    
     <hr>
-    <h3>
-        Responsabilidad del Tester:
-    </h3>
+    <h3 class="text-danger-emphasis"> Responsabilidad del Tester: </h3>
+    <br><br>
     <p>
         Nuestra responsabilidad como QA, es que el producto sea lo más confiable para el cliente.
     </p>
-    <h3>
-        Objetivos de Probar:
-    </h3>
+    <h3 class="text-danger-emphasis"> Objetivos de Probar: </h3>
+    <br><br>
     <p>
         Estos objetivos son planteados en la documentación del software a testear (estos pueden ser: Plan de pruebas, Historias de usuario, Criterios de aceptación, entre otros), es primordial contar con la documentación correspondiente, de no tenerla se deberán realizar pruebas exploratorias para encontrar defectos o bugs teniendo en cuenta lo siguiente:
     </p>                                                        
@@ -77,30 +75,26 @@
     </ul>
     <Section class="resumen">
             <hr>
-            <h1>
-                Técnicas de pruebas:
-            </h1>
+            <h2 class="text-danger-emphasis"> Técnicas de pruebas:</h2>
+            <br><br>
             <p>
                 El objetivo de una técnica de prueba es ayudar a identificar las condiciones de prueba, los casos de prueba y los datos de prueba. Son enfoques sistemáticos para diseñar y ejecutar pruebas de software.
             </p>
             <hr>
             <p>
-                <strong>
+                <b>
                     Caja Negra (Black Box):
-                </strong> 
+                </b> 
                 En contraste con la caja blanca, la técnica de prueba de caja negra no requiere conocimiento interno del código fuente. Los tester diseñan casos de prueba basados únicamente en los requisitos funcionales y las especificaciones del software detalladas en su documentación. Estas pruebas evalúan el comportamiento del software desde la perspectiva del usuario final. Las pruebas de caja negra se centran en probar la funcionalidad externa del software y pueden ser realizadas por tester que no tienen acceso al código fuente.                
             </p>
             <p>
-            <strong>
+            <b>
                 Caja Blanca (White Box):
-            </strong>  
+            </b>  
                 Esta técnica de prueba se basa en el conocimiento interno de la estructura y el funcionamiento del código fuente del software. Los tester pueden diseñar casos de prueba específicos para probar caminos de ejecución, condiciones de borde y lógica interna del programa. Las pruebas de caja blanca suelen ser realizadas por desarrolladores o tester automation que tienen acceso al código fuente y pueden utilizar técnicas como la cobertura de código para asegurarse de que todas las partes del código han sido probadas.
             </p>
             <p>
-            <strong>
-                Basadas en la experiencia:
-            </strong> 
-                Esta técnica de prueba se basa en el conocimiento y la experiencia de los tester para identificar posibles problemas en el software. Los tester utilizan su intuición y experiencia previa para diseñar casos de prueba y realizar evaluaciones informales del software. Esta técnica es especialmente útil cuando no hay requisitos claros o documentación disponible, ya que los tester pueden identificar posibles problemas basándose en su experiencia previa con sistemas similares o en su comprensión del dominio del negocio. Las pruebas basadas en la experiencia pueden complementar otras técnicas de prueba como las técnicas de prueba de caja negra y caja blanca.
+            <b>Basadas en la experiencia:</b> Esta técnica de prueba se basa en el conocimiento y la experiencia de los tester para identificar posibles problemas en el software. Los tester utilizan su intuición y experiencia previa para diseñar casos de prueba y realizar evaluaciones informales del software. Esta técnica es especialmente útil cuando no hay requisitos claros o documentación disponible, ya que los tester pueden identificar posibles problemas basándose en su experiencia previa con sistemas similares o en su comprensión del dominio del negocio. Las pruebas basadas en la experiencia pueden complementar otras técnicas de prueba como las técnicas de prueba de caja negra y caja blanca.
             </p>
 
     </Section>
