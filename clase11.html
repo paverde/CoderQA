@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="resumenes del curso de CODERHOUSE" />
+		<link rel="icon" href="images/favicon.jpg" type="image/x-icon" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+		<title>Resumen de CODER</title>
+	</head>
+
+	<div class="pagination">
+		<a href="clase10.html" class="btn btn-dark"
+			><strong> <<< Clase 10</strong> - Pruebas Mobile</a
+		>
+		<a href="index.html" class="btn btn-dark my-2"
+			><strong>PRINCIPAL</strong></a
+		>
+		<a href="clase12.html" class="btn btn-dark"
+			><strong>Clase 12</strong> - Prueba en Metodologías Ágile >>>
+		</a>
+	</div>
+	<header>Curso de Q&A - Clase 11 - CODERHOUSE</header>
+	<br />
+	<br />
+	<hr />
+	<body class="contenedor">
+		<h1>Pruebas en Metodologías de Desarrollo</h1>
+		<br />
+		<br />
+		<br />
+		<h2 class="text-danger-emphasis">¿Qué es un dato?</h2>
+		<p>
+			Son cifras, letras, palabras o cualquier otro tipo de formato que se
+			ingresa en una computadora para posteriormente ser procesada y utilizarla
+			como información para tomar decisiones.
+		</p>
+		<br />
+		<br />
+
+		<h2 class="text-danger-emphasis">¿Qué es una base de dato?</h2>
+		<br />
+		<p>
+			Las bases de datos son almacenes de datos para su uso futuro. Pueden ser
+			Relacionales o No-Relacionales, dependiendo de cómo se organicen los
+			datos.
+		</p>
+		<br />
+		<br />
+		<div class="img">
+			<img src="images/bbdd.png" alt="Base De Datos" />
+		</div>
+		<br /><br />
+		<h3 class="text-danger-emphasis">Base de datos (BBDD) Relacionales:</h3>
+		<br />
+		<p>
+			Las BBDD Relacionales estructuran la información en tablas con relaciones
+			definidas, como Excel. Por Ejemplo: una BBDD Relacional podría ser una
+			lista de clientes en una tabla. Suelen ser llamadas BBDD SQL.
+		</p>
+		<br />
+		<br />
+		<div class="img">
+			<figure class="figure">
+				<figcaption class="figure-caption text-center h2">
+					Ejemplo de consulta SQL
+				</figcaption>
+				<img
+					class="figure-img img-fluid rounded"
+					src="images/ejemplo-BBDD.png"
+					alt="dase de datos no-sql"
+					style="width: 35rem"
+				/>
+			</figure>
+		</div>
+		<br /><br />
+
+		<h3 class="text-danger-emphasis">Base de datos (BBDD) No-Relacionales:</h3>
+		<br />
+		<p>
+			Las BBDD No-Relacionales no tienen estructuras fijas y se adaptan a datos
+			variados, como documentos. Por Ejemplo: una BBDD No-Relacional podría
+			almacenar documentos con información detallada de cada cliente. Suelen ser
+			llamadas BBDD No-SQL.
+		</p>
+
+		<br />
+		<br />
+		<h3 class="text-danger-emphasis">SQL (Structured Query Language) :</h3>
+		<br />
+		<p>
+			Es un lenguaje de programación utilizado para gestionar y manipular bases
+			de datos relacionales. Se utiliza para realizar diversas operaciones como
+			consultar información, insertar nuevos datos, actualizar registros
+			existentes y eliminar datos. Este lenguaje es utilizado por las BBDD
+			Relacionales.
+		</p>
+		<br />
+		<br />
+
+		<div class="bbdd-img">
+			<div class="img">
+				<figure class="figure">
+					<img
+						class="figure-img img-fluid rounded"
+						src="images/BBDD-SQL-Tipos.png"
+						alt="dase de datos sql"
+						style="width: 25rem"
+					/>
+					<figcaption class="figure-caption text-center h2">
+						Base de Datos Relacionales o SQL
+					</figcaption>
+				</figure>
+				<img />
+			</div>
+			<h1 class="mx-5">Vs</h1>
+			<div class="img">
+				<figure class="figure">
+					<img
+						class="figure-img img-fluid rounded"
+						src="images/nosql.png"
+						alt="dase de datos no-sql"
+						style="width: 25rem"
+					/>
+					<figcaption class="figure-caption text-center h2">
+						Base de Datos No Relacionales o NO-SQL
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+		<br />
+		<br />
+		<hr />
+		<h2 class="text-danger-emphasis">la verificación de datos:</h2>
+		<br />
+		<p>
+			La verificación de datos es un proceso que se utiliza para asegurarse de
+			que la información sea precisa, completa y consistente. Es como revisar y
+			confirmar que los datos estén correctos y no haya errores. En este proceso
+			juega un papel fundamental los motores o gestores de bases de datos, ya
+			que proporcionan herramientas y funcionalidades para asegurar la precisión
+			y la integridad de la información almacenada.
+		</p>
+		<br />
+		<br />
+
+		<h2 class="text-danger-emphasis">Pruebas de estrés</h2>
+		<p>
+			tienen como objetivo evaluar la estabilidad y el rendimiento del sistema
+			bajo condiciones extremas de carga. Esto implica someter al sistema a una
+			carga intensiva para determinar su capacidad máxima de manejar un gran
+			número de usuarios o transacciones simultáneas.
+		</p>
+		<br />
+		<br />
+
+		<h2 class="text-danger-emphasis">Tipo de pruebas de estres</h2>
+		<br />
+		<div class="stress">
+			<div>
+				<ul>
+					<li>
+						LOAD TESTING (prueba de carga): Se utiliza para evaluar el
+						comportamiento del sistema bajo condiciones de carga normal o
+						esperada
+					</li>
+					<li>
+						STRESS TESTING (prueba de estres): Se enfoca en evaluar el
+						comportamiento del sistema cuando se somete a condiciones extremas o
+						por encima de la capacidad normal de carga.
+					</li>
+					<li>
+						ENDURANCE TESTING (prueba de Resistencia): Se centra en evaluar el
+						comportamiento del sistema durante un período prolongado de tiempo
+						bajo carga constante.
+					</li>
+					<li>
+						SCALABILITY TESTING (Pruebas de Escalabilidad): Se utiliza para
+						evaluar cómo el sistema responde al aumentar la carga, tanto
+						verticalmente (agregando más recursos a un servidor) como
+						horizontalmente (agregando más servidores).
+					</li>
+				</ul>
+			</div>
+			<br />
+			<br />
+			<hr />
+			<h2 class="text-danger-emphasis">Herramientas de Prueba de estres:</h2>
+			<br />
+			<br />
+			<div class="bbdd-img">
+				<div class="img">
+					<figure class="figure">
+						<img
+							class="figure-img img-fluid rounded"
+							src="images/Lighthouse.png"
+							alt="dase de datos sql"
+							style="width: 25rem"
+						/>
+						<figcaption class="figure-caption text-center h2">
+							<strong>Fighthouse</strong> extension de chrome para hacer pruebas
+							de estrés.
+						</figcaption>
+					</figure>
+					<img />
+				</div>
+
+				<div class="img">
+					<figure class="figure">
+						<img
+							class="figure-img img-fluid rounded"
+							src="images/jmeter.png"
+							alt="JMETER"
+						/>
+						<figcaption class="figure-caption text-center h2">
+							<strong>JMeter</strong> es más conocida para las pruebas de
+							estrés.
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+			<div class="img"></div>
+		</div>
+		<br />
+		<br />
+		<hr />
+		<h2 class="text-danger-emphasis">Las pruebas de seguridad:</h2>
+		<br /><br />
+		<p>
+			Son un tipo de evaluación que se realiza para identificar vulnerabilidades
+			en un sistema de software y garantizar que esté protegido contra amenazas
+			externas. Estas pruebas implican la identificación y análisis de posibles
+			riesgos de seguridad, como brechas de datos, accesos no autorizados,
+			fallos en la autenticación, entre otros. El objetivo principal es detectar
+			y corregir posibles puntos débiles en el sistema antes de que sean
+			explotados por hackers o causen daños significativos.
+		</p>
+		<br />
+		<br />
+		<h2 class="text-danger-emphasis">Vulnerabilidades:</h2>
+		<p>
+			Son todas las brechas de seguridad en un aplicación desde donde alguien
+			puede aprovecharse para romper la aplicación o hacer algún robo de
+			información. Estas son:
+		</p>
+		<ul>
+			<li>
+				<strong>Autentificación: </strong>Consiste en la verificación de la
+				identidad de un usuario que tiene permisos para acceder a la aplicación.
+				Los atacantes usualmente buscan quebrantar cualquier mecanismo de
+				autenticación que se les presente con el fin de ingresar a la
+				información que requieren.
+			</li>
+			<li>
+				<strong>Sesiones: </strong>Es un aspecto importante en la seguridad de
+				información, puesto que estas necesitan mantener el estado de las
+				peticiones del cliente y a partir de las sesiones se pueden asociar
+				entre sí
+			</li>
+			<li>
+				<strong>Validación de datos: </strong>Se refiere a la verificación de
+				datos de entrada permitidos dentro de la aplicación, y es una de las
+				debilidades más frecuentes en las aplicaciones web.
+			</li>
+			<li>
+				<strong>Límites de seguridad en testing: </strong>La seguridad en un
+				desarrollo de aplicación deberá ser nuestra responsabilidad, pero hay
+				que saber que el límite termina en el código y su funcionamiento.
+			</li>
+		</ul>
+		<br />
+		<br />
+		<hr />
+		<h2 class="text-danger-emphasis">Pruebas automatizadas</h2>
+		<br />
+		<br />
+		<p>
+			La automatización es una herramienta que le permite al QA adelantar
+			tiempos de pruebas ya hechos, a través de la programación de
+			comportamiento de la aplicación.
+		</p>
+		<br />
+		<br />
+		<h4 class="text-start">Falsos conceptos:</h4>
+		<ul>
+			<li>
+				<strong>¿Se puede automatizar todo?: </strong>
+				- ¡No! Sabemos que una aplicación no se puede probar a fondo nunca. Por
+				ende, tampoco automatizar todo.
+			</li>
+			<li>
+				<strong>Las pruebas automatizadas son demasiado costosas: </strong>
+				- Si y no. En una primera instancia, la inversión es alta, pero el mismo
+				con el tiempo se beneficia y su costo baja mucho.
+			</li>
+			<li>
+				<strong>Las pruebas automáticas son fáciles: </strong>
+				- ¡No!, A pesar de que existan herramientas que hagan la labor más
+				sencilla, automatizar es una de las partes más complejas del ciclo de
+				desarrollo.
+			</li>
+			<li>
+				<strong>Automatización reemplazará a pruebas manuales: </strong>
+				- No. Es el error más grande de todos. La automatización ayuda a lo
+				manual, pero nunca podrá reemplazarlo.
+			</li>
+		</ul>
+		<br />
+		<br />
+		<hr />
+		<h2 class="text-danger-emphasis">tipos de pruebas automatizadas:</h2>
+		<br />
+		<br />
+		<h6 class="text-start">
+			A grande escala, existen tres tipos de automatizaciones:
+		</h6>
+		<ul>
+			<li>
+				Las pruebas unitarias. son realizadas por programadores. Estas pruebas
+				se escriben para probar el nivel de código.Existen numerosos frameworks
+				para la automatización de pruebas unitarias. Algunos de los más
+				conocidos son NUnit, Junit, Unit, js, QUnit, etc.
+			</li>
+			<li>
+				Las pruebas de API. se prueban la funcionalidad, el cumplimiento y los
+				problemas de seguridad, y si está probando una aplicación web, también
+				se examina la seguridad de Solicitud y Respuesta ej: LambdaTest
+			</li>
+			<li>
+				Las pruebas de interfaz gráfica. suplantan las mismas acciones que los
+				usuarios realizan con su mouse y teclado en la interfaz de usuario. ej:
+				Selenium
+			</li>
+			<li>
+				otras herramientas: Appium para automatizar pruebas mobile, o
+				Functionize o SeleniumIDE que permiten automatizar webs sin la necesidad
+				de saber código para hacerlo.
+			</li>
+		</ul>
+
+		- - -
+	</body>
+</html>

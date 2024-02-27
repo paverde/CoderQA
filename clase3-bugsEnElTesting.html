@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="resumenes del curso de CODERHOUSE" />
+		<link rel="icon" href="images/favicon.jpg" type="image/x-icon" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="style.css" />
+		<title>Resumen de CODER</title>
+	</head>
+	<div class="pagination">
+		<a href="clase2-principiosTesting.html" class="btn btn-dark"
+			><strong> <<< Clase 02</strong> - Principios del testing</a
+		>
+		<a href="index.html" class="btn btn-dark my-2"
+			><strong>PRINCIPAL</strong></a
+		>
+		<a href="clase4-tiposYNivelesDeTesting.html" class="btn btn-dark"
+			><strong>Clase 04</strong> - Tipos y Niveles de testing >>>
+		</a>
+	</div>
+	<header>Curso de Q&A - Clase 03 - CODERHOUSE</header>
+	<body class="contenedor">
+		<hr />
+		<br />
+		<br />
+		<h1>Defectos en el Testing</h1>
+		<br />
+		<hr />
+		<h3 class="text-danger-emphasis">Ambientes de desarrollo y builds</h3>
+		<br />
+		<p>
+			Es un espacio controlado en una computadora donde pueden escribir código,
+			probar nuevas funciones y corregir errores sin afectar el software que ya
+			está en uso por los usuarios finales. Comprendemos que espacios virtuales
+			serán computadoras, servidores, máquinas virtuales, etc.
+		</p>
+		<br />
+		<hr />
+		<h2 class="text-danger-emphasis">Los 5 Ambientes:</h2>
+		<ul>
+			<li>
+				Local (Este es tu propio espacio de trabajo personal donde desarrollas y
+				pruebas el software en tu propia computadora.)
+			</li>
+			<li>
+				Desarrollo (Es el ambiente donde los programadores trabajan juntos para
+				construir y mejorar el software, implica la primera etapa de subida de
+				código del proyecto.)
+			</li>
+			<li>
+				Staging (Es el primer ambiente donde los QA realizan pruebas, debido a
+				que posee cierta estabilidad que no se asemeja al ambiente productivo.)
+			</li>
+			<li>
+				Pre-producción (Este ambiente es una etapa intermedia entre las pruebas
+				y el lanzamiento final y donde se realizará el UAT para la integración.)
+			</li>
+			<li>
+				Producción (Este es el ambiente en el que el software se hace accesible
+				para los usuarios finales.)
+			</li>
+		</ul>
+		<br />
+		<br />
+		<hr />
+		<h2 class="text-danger-emphasis">
+			¿Cuál es la diferencia entre un error, defecto y fallo?
+		</h2>
+		<br />
+		<br />
+		<p>
+			Error: Es una acción incorrecta cometida por una persona al escribir
+			código.
+		</p>
+		<ul>
+			ejemplo:
+			<li>Error en la lógica de la programación.</li>
+			<li>Requerimiento mal especificado.</li>
+		</ul>
+		<br />
+		<br />
+		<p>
+			Defecto (BUG): Es un problema en el código que causa un comportamiento no
+			deseado en el software.
+		</p>
+		<ul>
+			ejemplo:
+			<li>
+				Un módulo de registro de usuarios tiene mala configuración en la función
+				de conexión a base de datos.
+			</li>
+			<li>
+				Una función de login cuenta con las variables de usuario y contraseña
+				declaradas incorrectamente.
+			</li>
+		</ul>
+		<br />
+		<br />
+		<p>
+			Fallo: Es cuando un defecto provoca que el software no funcione como se
+			espera durante su uso.
+		</p>
+		<ul>
+			ejemplo:
+			<li>
+				Cuando intentas enviar un formulario sin completar un campo obligatorio
+				y el sistema no muestra un mensaje de error indicando que el campo es
+				requerido.
+			</li>
+			<li>
+				Cuando envías un formulario y el sistema muestra un mensaje de
+				confirmación de envío, pero no se enviaron los datos.
+			</li>
+		</ul>
+		<br />
+		<br />
+		<h3 class="text-danger-emphasis">Defectos, causas raíz y efectos:</h3>
+		<br />
+		<br />
+		<p>
+			Se pueden analizar los defectos para identificar sus causas raíz, con el
+			propósito de reducir la ocurrencia de defectos similares
+		</p>
+		<br />
+		<br />
+		<h3 class="text-danger-emphasis">Técnica de los 5 Porqués</h3>
+		<br />
+		<br />
+		<p>
+			Es una técnica para identificar las causas raíz de un problema al hacer
+			preguntas iterativas sobre por qué ocurrió el defecto, repitiendo la
+			pregunta "¿por qué?" hasta llegar a la causa.
+		</p>
+		<br />
+		<br />
+		<div class="img">
+			<img src="images/5-XQ-ejemplos.png" alt="Los cinco porque?" />
+		</div>
+		<br />
+		<br />
+		<hr />
+		<h1>Clasificación y reporte de defectos</h1>
+		<br /><br />
+		<h3 class="text-danger-emphasis">Registrar defectos</h3>
+		<p>
+			Dado que uno de los objetivos de la prueba es detectar defectos, estos
+			deben registrarse. La forma en que se registran los defectos pueden
+			variar, según el contexto del componente o sistema que se está probando,
+			el nivel de prueba, etc. Cualquier defecto identificado debe ser
+			investigado y debe tener un seguimiento y debe tener una clasificación
+			hasta su resolución.
+		</p>
+		<br />
+		<br />
+		<h3 class="text-danger-emphasis">Proceso de gestión</h3>
+		<p>
+			Para gestionar todos los defectos hasta su resolución, la organización
+			debe establecer un proceso que incluya un flujo de trabajo y reglas de
+			clasificación. Este proceso debe ser acordado con todo el equipo. El
+			equipo que participa incluye diseñadores, desarrolladores, testers y
+			propietarios de producto En algunas organizaciones, el registro y
+			seguimiento suele ser muy informal.
+		</p>
+		<br />
+		<br />
+		<h3 class="text-danger-emphasis">Criticidad y urgencia</h3>
+		<p>
+			criticidad: es la medida del alcance del daño potencial (nosotros los QAs
+			establecemos)
+		</p>
+		<p>urgencia: Es la rapidez con que se requiere una resolución</p>
+		<br />
+		<br />
+		<section class="resumen">
+			<ul>
+				<h3 class="text-danger-emphasis">Tipos de defectos</h3>
+				<br />
+				<br />
+				<li>
+					Defectos visuales (también conocidos como UX/UI): defectos visuales
+					relacionados con la usabilidad de la plataforma.
+				</li>
+				<br />
+				<div class="img">
+					<img src="images/def-visual.png" alt="defecto visual" />
+				</div>
+				<br />
+				<li>
+					Defectos componente: son específicamente cuando algo particular de la
+					plataforma no está funcionando como corresponde. Ejemplo: no deberia
+					enviar el formulario con caracteres numericos en el campo nombre.
+				</li>
+				<br />
+				<div class="img">
+					<img src="images/def-componentes.png" alt="defecto componente" />
+				</div>
+				<br />
+				<li>
+					Defectos contenido: están medianamente relacionados con los defectos
+					de UX/UI, pero se desprenden porque comprenden contenido
+					específicamente en la plataforma. ejemplo: el contenido de legales
+					está desactualizado con fechas del año anterior.
+				</li>
+				<br />
+				<div class="img">
+					<img src="images/def-contenido.png" alt="defecto contenido" />
+				</div>
+				<br />
+				<li>
+					Defectos disruptivos: El más grave de todos, que se da a causa de una
+					nueva implementación que hace que toda la plataforma se rompa.
+				</li>
+				<br />
+				<div class="img">
+					<img src="images/def-disruptivo.png" alt="defecto disruptivos" />
+				</div>
+				<br />
+			</ul>
+		</section>
+		<br /><br />
+		<hr />
+		<h3 class="text-danger-emphasis">Reporte de Defecto(bugs)</h3>
+		<br /><br />
+		<p>
+			El reporte de defectos es nuestra herramienta principal para demostrar el
+			trabajo realizado.
+		</p>
+		<br /><br />
+		<h3 class="text-danger-emphasis">¿Quién define el reporte del bug?</h3>
+		<br /><br />
+		<p>
+			Es un trabajo de equipo que se realiza previo al comienzo del ciclo del
+			desarrollo. El equipo comprende a los desarrolladores, tester, product
+			owners, diseñadores, etc.
+		</p>
+		<br /><br />
+		<ul>
+			Algunos de los datos que NO pueden faltar son:
+			<li>Título</li>
+			<li>Resultado esperado</li>
+			<li>Resultado obtenido</li>
+			<li>Sistema utilizado (sistema operativo o equipo físico)</li>
+			<li>Nivel del bug</li>
+			<li>Captura de pantalla del error (evidencia)</li>
+		</ul>
+		<h3 class="text-danger-emphasis">Ejemplo de Reporte de Defectos:</h3>
+		<br />
+		<div class="img">
+			<img src="images/reporteBug.png" alt="Reporte de bug" />
+		</div>
+		<br />
+	</body>
+</html>

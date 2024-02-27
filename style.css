@@ -1,34 +1,68 @@
-body {
-    background:tan;
-    color: black
+.contenedor {
+	background: tan;
+	margin-left: 20px;
 }
 header {
-    text-align: center;
-    font-size: 32px;
-    font-style: italic, bold;
-    font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	font-size: 32px;
+	font-style: italic, bold;
+	font-family: 'Courier New', Courier, monospace;
 }
+.pagination {
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+}
+
 h1 {
-    color:black;
-    text-align: center;
-     }
+	color: black;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
 h3 {
-    color: darkred;
-    text-align:center;
+	text-align: center;
+}
+h4 {
+	font-weight: 300;
+	text-align: center;
 }
 p {
-    text-indent: 15px;
-max-width: 90%;
-color: black;
-font-size: 15px;
-font-family: Verdana, Tahoma, sans-serif;
-text-align: center, justify
+	max-width: 90%;
+	color: black;
+	font-size: 15px;
+	font-family: Verdana, Tahoma, sans-serif;
 }
 .resumen {
-    background-color: rgb(248, 213, 170);
-    max-width: 90%;
+	background-color: rgb(248, 213, 170);
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
 }
 
 .links {
-    align-items: center;
+	align-items: center;
+}
+
+ol,
+ul {
+	margin-left: 20px;
+}
+li {
+	margin: 15px 20px;
+}
+
+.img {
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+.bbdd-img {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
